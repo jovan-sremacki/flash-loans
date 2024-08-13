@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# Flash Loans Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates the use of flash loans in Ethereum smart contracts. Flash loans allow borrowing assets without collateral as long as the loan is repaid within the same transaction.
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- **Flash Loan Smart Contracts:** Written in Solidity, showcasing flash loan logic.
+- **Hardhat Environment:** Includes setup for local testing and deployment.
+- **Tests:** Contains unit tests to verify the functionality of the flash loan contracts.
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jovan-sremacki/flash-loans.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run tests:
+   ```bash
+   npx hardhat test
+   ```
